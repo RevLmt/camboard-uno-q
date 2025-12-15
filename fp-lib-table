@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "camboard_footprints")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/camboard_footprints.pretty")(options "")(descr ""))
+)
