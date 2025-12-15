@@ -4,3 +4,4 @@
 *-backups
 *.DS_STORE
 *.bak
+*cache
