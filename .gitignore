@@ -6,3 +6,5 @@
 *.bak
 *cache
 fab/*
+production/*
+*-options*

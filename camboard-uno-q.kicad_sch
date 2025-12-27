@@ -2146,7 +2146,999 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "library:FPC_22pin_shielded"
+		(symbol "FPC_22pin_shielded_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FPC_22pin_shielded_1_0_1"
+				(rectangle
+					(start -5.08 29.21)
+					(end 2.54 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FPC_22pin_shielded_1_1_1"
+				(pin input line
+					(at -7.62 27.94 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 25.4 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 22.86 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 17.78 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 15.24 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 12.7 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -12.7 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -22.86 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -25.4 0)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 31.75 270)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -29.21 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FPC_22pin_shielded_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FPC_22pin_shielded_2_0_1"
+				(rectangle
+					(start -5.08 29.21)
+					(end 2.54 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FPC_22pin_shielded_2_1_1"
+				(pin input line
+					(at -7.62 27.94 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 25.4 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 22.86 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 17.78 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 15.24 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 12.7 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -12.7 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -22.86 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -25.4 0)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 31.75 270)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -29.21 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_camera_conn:FPC_22pin_shielded"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2613,7 +3605,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2631,7 +3623,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3756,6 +4748,12 @@
 		(uuid "5c9b0043-00db-43a5-803c-c977bace865d")
 	)
 	(junction
+		(at 259.08 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dabad30-eb77-42f1-bbbc-4f69e5d3e867")
+	)
+	(junction
 		(at 31.75 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4020,6 +5018,12 @@
 		(uuid "ee9d2090-621a-40fa-b788-b78a69102c7a")
 	)
 	(junction
+		(at 271.78 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd55696-9fea-48b1-a8cb-852f1809a916")
+	)
+	(junction
 		(at 234.95 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4115,7 +5119,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 175.26) (xy 245.11 175.26)
+			(xy 275.59 175.26) (xy 271.78 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4535,6 +5539,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 232.41) (xy 274.32 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197fa549-5c27-42ad-841d-93f81a63ee47")
+	)
+	(wire
+		(pts
 			(xy 182.88 46.99) (xy 217.17 46.99)
 		)
 		(stroke
@@ -4562,6 +5576,16 @@
 			(type default)
 		)
 		(uuid "1c14259c-d1e7-4c2c-98cb-7d346d6bba9d")
+	)
+	(wire
+		(pts
+			(xy 273.05 90.17) (xy 259.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3a902b-2718-4c99-85b5-71aa493b5e91")
 	)
 	(wire
 		(pts
@@ -4835,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 147.32) (xy 257.81 147.32)
+			(xy 257.81 147.32) (xy 265.43 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5045,6 +6069,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 234.95) (xy 250.19 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d7b36b-fe87-4a03-974b-c3d308389a00")
+	)
+	(wire
+		(pts
 			(xy 316.23 96.52) (xy 316.23 101.6)
 		)
 		(stroke
@@ -5082,6 +6116,16 @@
 			(type default)
 		)
 		(uuid "3a78f0aa-92aa-4ef3-b245-438eb4cd3ede")
+	)
+	(wire
+		(pts
+			(xy 261.62 152.4) (xy 234.95 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab3d40e-f9c7-4d71-944a-860816b44f34")
 	)
 	(wire
 		(pts
@@ -5845,6 +6889,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 90.17) (xy 259.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6661f9a4-4139-40e5-810d-37f0ef32eb46")
+	)
+	(wire
+		(pts
 			(xy 81.28 158.75) (xy 83.82 158.75)
 		)
 		(stroke
@@ -5922,6 +6976,16 @@
 			(type default)
 		)
 		(uuid "6a6d1143-7fc9-43fa-8212-d20b2c79d556")
+	)
+	(wire
+		(pts
+			(xy 250.19 233.68) (xy 245.11 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b408919-2dca-4b96-a50c-7d42ad9870b2")
 	)
 	(wire
 		(pts
@@ -6022,6 +7086,16 @@
 			(type default)
 		)
 		(uuid "6df45e07-c285-4926-82f7-4b46b9c0937a")
+	)
+	(wire
+		(pts
+			(xy 271.78 171.45) (xy 271.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3212c2-53ae-4d58-b0c3-465f806c2ca3")
 	)
 	(wire
 		(pts
@@ -6232,6 +7306,16 @@
 			(type default)
 		)
 		(uuid "79c9d1f0-624e-463d-93a7-6e7eba05347e")
+	)
+	(wire
+		(pts
+			(xy 283.21 171.45) (xy 271.78 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa1b876-ca99-43a9-8249-b3ee6eb6cbce")
 	)
 	(wire
 		(pts
@@ -6702,6 +7786,16 @@
 			(type default)
 		)
 		(uuid "9450cfcb-4d04-4ff2-868c-8493ba2e5768")
+	)
+	(wire
+		(pts
+			(xy 261.62 151.13) (xy 261.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9469c3c3-f385-45cf-90e0-ef4691ccbe48")
 	)
 	(wire
 		(pts
@@ -7395,7 +8489,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 93.98) (xy 234.95 93.98)
+			(xy 265.43 93.98) (xy 259.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7522,6 +8616,16 @@
 			(type default)
 		)
 		(uuid "ba1f9900-50e0-4fb5-a214-503eda1a7568")
+	)
+	(wire
+		(pts
+			(xy 273.05 151.13) (xy 261.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb69484c-b23d-4f41-984b-f5fa998b5e29")
 	)
 	(wire
 		(pts
@@ -7745,6 +8849,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 232.41) (xy 274.32 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7e5469-ee86-4e61-913c-9262a34a66ce")
+	)
+	(wire
+		(pts
 			(xy 256.54 24.13) (xy 237.49 24.13)
 		)
 		(stroke
@@ -7822,6 +8936,16 @@
 			(type default)
 		)
 		(uuid "ced7f1e6-ace5-437c-a361-d23e8224fdca")
+	)
+	(wire
+		(pts
+			(xy 267.97 228.6) (xy 275.59 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefaaf35-c82d-4f11-b7af-30d0995d694a")
 	)
 	(wire
 		(pts
@@ -7945,16 +9069,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 228.6) (xy 267.97 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e80929-263e-4f5b-91b7-8000b33aee68")
-	)
-	(wire
-		(pts
 			(xy 64.77 35.56) (xy 67.31 35.56)
 		)
 		(stroke
@@ -8015,6 +9129,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 175.26) (xy 245.11 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9622d22-5d21-40a4-8bc0-c56e99721328")
+	)
+	(wire
+		(pts
 			(xy 182.88 34.29) (xy 185.42 34.29)
 		)
 		(stroke
@@ -8032,6 +9156,16 @@
 			(type default)
 		)
 		(uuid "da2e9991-820a-4423-b8c4-bc11992f3a08")
+	)
+	(wire
+		(pts
+			(xy 259.08 93.98) (xy 234.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7f37b2-8a5c-42e0-9301-0418fdb0647d")
 	)
 	(wire
 		(pts
@@ -8672,6 +9806,16 @@
 			(type default)
 		)
 		(uuid "fdc18372-b755-42a6-b17d-c6549da6edbc")
+	)
+	(wire
+		(pts
+			(xy 250.19 234.95) (xy 250.19 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc3b687-bb69-4c3a-b3c7-daf903ba5bcf")
 	)
 	(wire
 		(pts
@@ -11017,7 +12161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "_capacitors:C_0402_1005Metric"
 			(at 383.54 160.02 0)
 			(effects
 				(font
@@ -11036,6 +12180,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 383.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15525"
 			(at 383.54 160.02 0)
 			(effects
 				(font
@@ -11170,6 +12323,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x30, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72530"
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -11368,7 +12530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "library:FPC_22pin_shielded")
+		(lib_id "_camera_conn:FPC_22pin_shielded")
 		(at 273.05 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11377,7 +12539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13711256-9a22-4291-a402-6a2cb520c0c1")
-		(property "Reference" "U3"
+		(property "Reference" "CAM1"
 			(at 276.86 119.3799 0)
 			(effects
 				(font
@@ -11395,7 +12557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:TE_2-1734839-2_1x22-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "_camera_conn_:JUSHUO_AFC07-S22ECC-00-_1x22-1MP_P0.5mm_Horizontal"
 			(at 273.05 121.92 0)
 			(effects
 				(font
@@ -11414,6 +12576,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11091"
 			(at 273.05 121.92 0)
 			(effects
 				(font
@@ -11488,16 +12659,16 @@
 		(pin "2"
 			(uuid "d22964ed-1a60-4339-9549-2c5f10fc1dd3")
 		)
-		(pin "23"
+		(pin "MP"
 			(uuid "a4492713-aee8-497b-8d99-2dd0d6a0e84f")
 		)
-		(pin "24"
+		(pin "MP"
 			(uuid "e5054626-dd58-436c-8afc-727a7c175cc4")
 		)
 		(instances
 			(project ""
 				(path "/157f5904-f68b-4fc3-b54c-b6525404cdd2"
-					(reference "U3")
+					(reference "CAM1")
 					(unit 1)
 				)
 			)
@@ -11597,7 +12768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "_capacitors:C_0402_1005Metric"
 			(at 370.84 160.02 0)
 			(effects
 				(font
@@ -11616,6 +12787,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 370.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 370.84 160.02 0)
 			(effects
 				(font
@@ -11864,7 +13044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "_capacitors:C_0402_1005Metric"
 			(at 328.93 160.02 0)
 			(effects
 				(font
@@ -11883,6 +13063,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 328.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15525"
 			(at 328.93 160.02 0)
 			(effects
 				(font
@@ -12000,7 +13189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "_capacitors:C_0402_1005Metric"
 			(at 339.09 160.02 0)
 			(effects
 				(font
@@ -12019,6 +13208,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 339.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 339.09 160.02 0)
 			(effects
 				(font
@@ -12820,6 +14018,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C72530"
+			(at 176.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "42"
 			(uuid "baef8486-9374-4e32-af80-487be97d8ac6")
 		)
@@ -13063,6 +14270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17206"
+			(at 361.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "844567a3-dabc-479e-8412-58b4a4f8ec92")
 		)
@@ -13177,6 +14393,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x30, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191721"
 			(at 73.66 179.07 0)
 			(effects
 				(font
@@ -13507,7 +14732,8 @@
 		)
 	)
 	(symbol
-		(lib_id "library:FPC_22pin_shielded")
+		(lib_name "FPC_22pin_shielded_1")
+		(lib_id "_camera_conn:FPC_22pin_shielded")
 		(at 271.78 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13516,7 +14742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adae4a8e-7370-400a-ac4d-45d3b53a4ee9")
-		(property "Reference" "U1"
+		(property "Reference" "CAM0"
 			(at 275.59 49.5299 0)
 			(effects
 				(font
@@ -13534,7 +14760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:TE_2-1734839-2_1x22-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "_camera_conn_:JUSHUO_AFC07-S22ECC-00-_1x22-1MP_P0.5mm_Horizontal"
 			(at 271.78 52.07 0)
 			(effects
 				(font
@@ -13553,6 +14779,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11091"
 			(at 271.78 52.07 0)
 			(effects
 				(font
@@ -13624,10 +14859,10 @@
 		(pin "1"
 			(uuid "59ef373f-6f2d-4e00-b3c8-f284f44d0689")
 		)
-		(pin "23"
+		(pin "MP"
 			(uuid "1e44b93e-a14a-4e83-bede-83e3b3e138b0")
 		)
-		(pin "24"
+		(pin "MP"
 			(uuid "4d493ee8-7651-41c9-8bf5-69d09032317e")
 		)
 		(pin "22"
@@ -13636,7 +14871,7 @@
 		(instances
 			(project ""
 				(path "/157f5904-f68b-4fc3-b54c-b6525404cdd2"
-					(reference "U1")
+					(reference "CAM0")
 					(unit 1)
 				)
 			)
@@ -14198,7 +15433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "_resistors:R_0402_1005Metric_custom"
 			(at 317.246 92.964 90)
 			(effects
 				(font
@@ -14217,6 +15452,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 316.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
 			(at 316.23 92.71 0)
 			(effects
 				(font
@@ -14307,7 +15551,8 @@
 		)
 	)
 	(symbol
-		(lib_id "library:FPC_22pin_shielded")
+		(lib_name "FPC_22pin_shielded_2")
+		(lib_id "_camera_conn:FPC_22pin_shielded")
 		(at 283.21 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14316,7 +15561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9a652b7-95d3-4a37-87b3-0fa31838fdf7")
-		(property "Reference" "U4"
+		(property "Reference" "DISP0"
 			(at 287.02 200.6599 0)
 			(effects
 				(font
@@ -14334,7 +15579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:TE_2-1734839-2_1x22-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "_camera_conn_:JUSHUO_AFC07-S22ECC-00-_1x22-1MP_P0.5mm_Horizontal"
 			(at 283.21 203.2 0)
 			(effects
 				(font
@@ -14353,6 +15598,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 283.21 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11091"
 			(at 283.21 203.2 0)
 			(effects
 				(font
@@ -14427,16 +15681,16 @@
 		(pin "2"
 			(uuid "7235f7e9-81e5-439d-bc70-9ec782a3b51e")
 		)
-		(pin "23"
+		(pin "MP"
 			(uuid "8a741af5-7b87-4a56-9ed9-4121c32c8cca")
 		)
-		(pin "24"
+		(pin "MP"
 			(uuid "19b12572-c384-4c3b-80ba-540c1bf1b936")
 		)
 		(instances
 			(project "camboard-uno-q"
 				(path "/157f5904-f68b-4fc3-b54c-b6525404cdd2"
-					(reference "U4")
+					(reference "DISP0")
 					(unit 1)
 				)
 			)
@@ -14487,6 +15741,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x30, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191721"
 			(at 72.39 60.96 0)
 			(effects
 				(font
