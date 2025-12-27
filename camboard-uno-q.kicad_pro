@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 1.0,
+          "width": 0.28
         }
       ],
       "drc_exclusions": [],
@@ -187,7 +192,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.25,
+        0.28
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +227,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -483,22 +495,22 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.25,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.28,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Camera",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.28,
+        "via_diameter": 0.7,
         "via_drill": 0.3
       },
       {
@@ -573,6 +585,42 @@
       {
         "netclass": "PWR",
         "pattern": "+1V8"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/CSI1_I2C_SCL"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/MIPI_DSI0_L0_P"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/MIPI_DSI0_L0_N"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/MIPI_DSI0_L1_P"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/MIPI_DSI0_L1_N"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/MIPI_DSI0_CLK_N"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/MIPI_DSI0_CLK_P"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/CSI1_CLK_P"
+      },
+      {
+        "netclass": "Camera",
+        "pattern": "/CSI1_CLK_N"
       }
     ]
   },
@@ -581,7 +629,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
