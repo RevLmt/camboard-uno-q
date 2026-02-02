@@ -1,0 +1,52 @@
+/dts-v1/;
+/plugin/;
+
+
+/ {
+  /* Optional: keep if your tooling wants it */
+  compatible = "arduino,imola", "qcom,qcm2290", "qcom,qrb2210";
+
+
+  /* 1  Disable the non-existent PCA9555 on CCI I2C0 */
+  fragment@0 {
+    target = <&cci_i2c0>;
+    __overlay__ {
+      gpio@26 {
+        status = "disabled";
+      };
+
+      /*
+      sensor@10 {
+        port {
+          endpoint {
+            data-lanes = <0x00 0x01>;
+          };
+        };
+      };
+      */
+
+    };
+  };
+
+  /* 2  Fix cam0-pwr to use SoC TLMM GPIO98 instead of the expander */
+  fragment@1 {
+    target-path = "/cam0-pwr";
+    __overlay__ {
+      gpio = <&tlmm 98 0>;
+    };
+  };
+
+
+
+
+  
+  /*
+  fragment@2 {
+    target = <&camss>;
+    __overlay__ {
+      vdd-csiphy-1p2-supply = <&cam0-pwr>;
+      vdd-csiphy-1p8-supply = <&cam0-pwr>;
+    };
+  };
+  */
+};
