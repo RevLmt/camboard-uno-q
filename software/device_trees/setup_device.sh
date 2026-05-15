@@ -6,6 +6,8 @@ cd ~/device_trees/
 
 cp /boot/efi/dtb/qcom/qrb2210-ardiuno-imola-camera-rpiv2.dtb ~/device_trees/
 
+dtc @ -I dts -O dtb -o unoq-imx219-powerfix.dtbo unoq-imx219-powerfix.dts
+
 fdtoverlay -i qrb2210-arduino-imola-camera-rpiv2.dtb unoq-imx219-powerfix.dtbo -o qrb2210-arduino-imola-camera-rpiv2-r1b.dtb
 
 mkdir /boot/efi/dtb/r1b/
