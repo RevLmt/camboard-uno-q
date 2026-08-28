@@ -1,6 +1,8 @@
 # Camera & Display Breakout for Arduino UNO Q
 This camera and display module for the Arduino UNO Q. It breaks out the 2 MIPI-CSI cameras and a single MIPI-DSI display interace. All use a 22-pin cable (similar to compute boards for the Raspberry Pi).
 
+You can ***purchase a this camera board [here](https://www.r1build.com/products/camera-and-display-breakout-for-arduino-uno-q)***.
+
 
 
 <img src="assets/camboard_isoview.png" alt="Camera breakout board for Arduino UNO Q (isoview)" width="500" height="500">
